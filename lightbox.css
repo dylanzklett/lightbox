@@ -9,10 +9,20 @@ body{
 	top:0px;
 	left:0px;
 	background-color: rgba(0,0,0,0.7);
+	display: none;
+
+}
+.inner_lightbox{
 
 }
 
 img {
 	margin: 0 auto;
 	display: block;
+}
+.exit{
+	color:red;
+	padding-left: 85%;
+	
+
 }

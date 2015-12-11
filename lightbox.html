@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="lightbox.css">
 	</head>
 	<body>
-		<div class="outer_lightbox">
+		<div id="wrapper">
 			<a class = "lightbox_link" href="#">monkey teeth</a>
 			<a class= "lightbox_link" href="#">NYCDA</a>
 			<p>
@@ -17,10 +17,11 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 
-
+			<div class="outer_lightbox">
 
 
 			<div class ="inner_lightbox">
+				<a href="#" class="exit"> X </p>
 				<img src="monkey_selfie.jpg">
 
 			</div>
@@ -28,7 +29,7 @@
 
 		</div>
 
-
+	</div>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="lightbox.js"></script>
 	</body>
